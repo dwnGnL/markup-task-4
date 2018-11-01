@@ -1,23 +1,28 @@
-p{
+p
+{
 	color: gray;
 }
 
-body{
+body
+{
 	padding: 20px;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"]
+{
 	visibility: hidden;
 }
 
-label img{
+label img
+{
 	display: block;
 	height: 26px;
 	position: relative;
 	width: 32px;
 }
 
-label img{
+label img
+{
 	cursor: pointer;
 	height: 35px;
 	left: 0;
@@ -27,7 +32,8 @@ label img{
 	width: 30px;
 }
 
-li div{
+li div
+{
 	border: 1px solid #d7d7d7;
 	float: left;
 	height: 460px;
@@ -36,7 +42,8 @@ li div{
 	width: 370px;
 }
 
-div a{
+div a
+{
 	color: black;
 	display: block;
 	font-size: 24px;
@@ -44,33 +51,40 @@ div a{
 	text-decoration: none;
 }
 
-.info{
+.info
+{
 	overflow: hidden;
 	visibility: hidden;
 }
 
-div a:hover{
+div a:hover
+{
 	color: purple;
 }
 
-li div:hover{
+li div:hover
+{
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-li div img{
+li div img
+{
 	height: 300px;
 	width: 370px;
 }
 
-div a,p{
+div a,p
+{
 	margin: 10px;
 }
 
-li{
+li
+{
 	list-style: none;
 }
 
-input[type="checkbox"]:checked + label img{
+input[type="checkbox"]:checked + label img
+{
 	cursor: pointer;
 	height: 30px;
 	left: 0;
@@ -80,12 +94,14 @@ input[type="checkbox"]:checked + label img{
 	width: 35px;
 }
 
-div hr{
+div hr
+{
 	opacity: 0.3;
 	visibility: hidden;
 }
 
-input[type="checkbox"]:checked ~ ul li div{
+input[type="checkbox"]:checked ~ ul li div
+{
 	align-content: center;
 	border: 1px solid #d7d7d7;
 	border: none;
@@ -97,7 +113,8 @@ input[type="checkbox"]:checked ~ ul li div{
 	width: 100%;
 }
 
-input[type="checkbox"]:checked ~ ul li div img{
+input[type="checkbox"]:checked ~ ul li div img
+{
 	display: block;
 	height: 500px;
 	margin-left: auto;
@@ -105,18 +122,22 @@ input[type="checkbox"]:checked ~ ul li div img{
 	width: 800px;
 }
 
-input[type="checkbox"]:checked ~ ul li div p~p{
+input[type="checkbox"]:checked ~ ul li div p~p
+{
 	visibility: hidden;
 }
 
-input[type="checkbox"]:checked ~ ul li div .info{
+input[type="checkbox"]:checked ~ ul li div .info
+{
 	visibility: visible;
 }
 
-input[type="checkbox"]:checked ~ ul li div hr{
+input[type="checkbox"]:checked ~ ul li div hr
+{
 	visibility: visible;
 }
 
-input[type="checkbox"]:checked ~ ul li div:hover{
+input[type="checkbox"]:checked ~ ul li div:hover
+{
 	box-shadow: none;
 }
