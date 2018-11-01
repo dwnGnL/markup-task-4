@@ -1,143 +1,126 @@
-p
-{
-	color: gray;
+
+
+p {
+    color: gray;
 }
 
-body
-{
-	padding: 20px;
+body {
+    padding: 20px;
 }
 
-input[type="checkbox"]
-{
-	visibility: hidden;
+input[type="checkbox"] {
+    visibility: hidden;
 }
 
-label img
-{
-	display: block;
-	height: 26px;
-	position: relative;
-	width: 32px;
+label img {
+    display: block;
+    height: 26px;
+    position: relative;
+    width: 32px;
 }
 
-label img
-{
-	cursor: pointer;
-	height: 35px;
-	left: 0;
-	position: absolute;
-	top: 0;
-	transform: rotate(90deg);
-	width: 30px;
+label img {
+    cursor: pointer;
+    height: 35px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(90deg);
+    width: 30px;
 }
 
-li div
-{
-	border: 1px solid #d7d7d7;
-	float: left;
-	height: 460px;
-	margin-bottom: 20px;
-	margin-right: 20px;
-	width: 370px;
+li div {
+    border: 1px solid #d7d7d7;
+    float: left;
+    height: 460px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 370px;
 }
 
-div a
-{
-	color: black;
-	display: block;
-	font-size: 24px;
-	font-weight: bold;
-	text-decoration: none;
+div a {
+    color: black;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.info
-{
-	overflow: hidden;
-	visibility: hidden;
+.info {
+    overflow: hidden;
+    visibility: hidden;
 }
 
-div a:hover
-{
-	color: purple;
+div a:hover {
+    color: purple;
 }
 
-li div:hover
-{
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+li div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-li div img
-{
-	height: 300px;
-	width: 370px;
+li div img {
+    height: 300px;
+    width: 370px;
 }
 
-div a,p
-{
-	margin: 10px;
+div a,
+p {
+    margin: 10px;
 }
 
-li
-{
-	list-style: none;
+li {
+    list-style: none;
 }
 
-input[type="checkbox"]:checked + label img
-{
-	cursor: pointer;
-	height: 30px;
-	left: 0;
-	position: absolute;
-	top: 0;
-	transform: rotate(0deg);
-	width: 35px;
+input[type="checkbox"]:checked+label img {
+    cursor: pointer;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(0deg);
+    width: 35px;
 }
 
-div hr
-{
-	opacity: 0.3;
-	visibility: hidden;
+div hr {
+    opacity: 0.3;
+    visibility: hidden;
 }
 
-input[type="checkbox"]:checked ~ ul li div
-{
-	align-content: center;
-	border: 1px solid #d7d7d7;
-	border: none;
-	display: block;
-	float: none;
-	height: auto;
-	margin-bottom: 20px;
-	margin-right: 20px;
-	width: 100%;
+input[type="checkbox"]:checked~ul li div {
+    align-content: center;
+    border: 1px solid #d7d7d7;
+    border: none;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 100%;
 }
 
-input[type="checkbox"]:checked ~ ul li div img
-{
-	display: block;
-	height: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 800px;
+input[type="checkbox"]:checked~ul li div img {
+    display: block;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
 }
 
-input[type="checkbox"]:checked ~ ul li div p~p
-{
-	visibility: hidden;
+input[type="checkbox"]:checked~ul li div p~p {
+    visibility: hidden;
 }
 
-input[type="checkbox"]:checked ~ ul li div .info
-{
-	visibility: visible;
+input[type="checkbox"]:checked~ul li div .info {
+    visibility: visible;
 }
 
-input[type="checkbox"]:checked ~ ul li div hr
-{
-	visibility: visible;
+input[type="checkbox"]:checked~ul li div hr {
+    visibility: visible;
 }
 
-input[type="checkbox"]:checked ~ ul li div:hover
-{
-	box-shadow: none;
+input[type="checkbox"]:checked~ul li div:hover {
+    box-shadow: none;
 }
+
